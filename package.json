@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@zowe/cli": "^7.6.2",
+    "@zowe/core-for-zowe-sdk": "^7.6.2",
+    "@zowe/imperative": "^5.5.4",
+    "@zowe/zos-jobs-for-zowe-sdk": "^7.6.2",
+    "@zowe/zos-tso-for-zowe-sdk": "^7.6.2",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "express": "~4.16.1",
+    "express-zip": "^3.0.0",
+    "helmet": "^5.1.1",
+    "jszip": "^3.10.1",
+    "morgan": "~1.9.1",
+    "tingodb": "^0.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
